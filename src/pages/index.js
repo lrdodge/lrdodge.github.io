@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTagline = data.site.siteMetadata?.tagline || null
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
@@ -23,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} tagline={siteTagline}>
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
@@ -75,6 +76,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        tagline
       }
     }
     allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
