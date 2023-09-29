@@ -9,15 +9,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Luke Dodge`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Luke Dodge`,
+      summary: `who lives and works in Kansas City building useful things and leading cool people.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    tagline: `Transmuting everyday engineering into leadership gold`,
+    description: `Transmute everyday engineering into leadership gold, providing insights and strategies to elevate your skills and turn them into valuable assets.`,
+    siteUrl: `https://lrdodge.github.io/`,
     social: {
-      twitter: `kylemathews`,
+      linkedin: `luke-dodge`,
     },
   },
   plugins: [
@@ -102,7 +103,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Luke Dodge Blog RSS Feed",
           },
         ],
       },
@@ -110,8 +111,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Luke Dodge Blog`,
+        short_name: `Luke Dodge`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
