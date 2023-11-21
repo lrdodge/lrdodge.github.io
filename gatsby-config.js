@@ -13,6 +13,7 @@ module.exports = {
     author: {
       name: `Luke Dodge`,
       summary: `who lives and works in Kansas City building useful things and leading cool people.`,
+      email: `luke.r.dodge@gmail.com`,
     },
     tagline: `Transmuting everyday engineering into leadership gold`,
     description: `Transmute everyday engineering into leadership gold, providing insights and strategies to elevate your skills and turn them into valuable assets.`,
