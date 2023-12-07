@@ -24,12 +24,12 @@ const ContactMe = () => {
       <Avatar />
       {author?.name && (
         <p>
-          <strong>Ready to Implement These Ideas at Your Company? Contact Me!</strong>
-          <br/>
+          <strong>
+            Ready to Implement These Ideas at Your Company? Contact Me!
+          </strong>
+          <br />
           {`If you're looking to enhance your engineering leadership strategies, I'm here to help. Connect with me at `}
-          <a href={`mailto: ${author?.email}`}>
-            {author?.email}
-          </a>
+          <a href={`mailto: ${author?.email}`}>{author?.email}</a>
           {` for personalized advice to elevate your team and organization.`}
         </p>
       )}
