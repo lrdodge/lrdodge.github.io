@@ -1,3 +1,12 @@
+## Writing posts
+
+Store posts directly in `content/blog` as `post-slug.md`, for example
+`define-your-teams-success.md`. The filename determines the public URL
+(`/define-your-teams-success/`).
+
+Keep the `title` and `date` frontmatter in each post. The frontmatter date controls
+the displayed publication date, post ordering, and RSS feed.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
