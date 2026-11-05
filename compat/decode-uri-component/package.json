@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-decode-uri-component-compat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.cjs",
+  "engines": { "node": ">=24 <25" },
+  "dependencies": {
+    "patched-decode-uri-component": "npm:decode-uri-component@0.5.1"
+  }
+}

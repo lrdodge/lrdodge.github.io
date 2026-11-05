@@ -1,5 +1,25 @@
 # README
 
+## Local development and dependency updates
+
+Use Node.js 24 (`nvm install && nvm use` reads `.nvmrc`), then run:
+
+```sh
+npm ci
+npm test
+npm run develop
+```
+
+`npm test` builds the production site and checks post pages, the homepage, RSS,
+the 404 page, and manifest icons. `npm run deploy` publishes to the `site` branch;
+run it only when you intend to publish.
+
+The dependency refresh keeps React on 18.3.1 to limit migration risk while
+updating Gatsby and its plugins together. React 19 should be a separate migration
+with browser verification. See [DEPENDENCIES.md](DEPENDENCIES.md) for the security
+overrides and remaining upstream advisories. Commit `package-lock.json` with
+dependency changes, and use `npm ci` for reproducible installs.
+
 ## Writing posts
 
 Store posts directly in `content/blog` as `post-slug.md`, for example
