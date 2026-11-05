@@ -1,5 +1,5 @@
 ---
-title: "The Power of Descriptive Project Names"
+title: "There is great power in a descriptive project name"
 date: "2023-12-29"
 ---
 

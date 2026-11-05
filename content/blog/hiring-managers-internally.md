@@ -1,5 +1,5 @@
 ---
-title: Best Practices for Promoting Managers from Within
+title: Best practices for promoting managers from within (and why you should)
 date: "2023-09-22"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Identifying Successful vs. High-Performing Teams
+title: How to identify successful vs. high-performing teams
 date: "2024-01-26"
 ---
 

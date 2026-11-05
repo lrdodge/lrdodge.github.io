@@ -1,5 +1,5 @@
 ---
-title: Define Your Team's Success to Always Win
+title: Define your team's success to always win
 date: "2023-11-20"
 ---
 

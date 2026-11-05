@@ -1,5 +1,5 @@
 ---
-title: Documentation is the Cornerstone of Alignment
+title: Documentation is the cornerstone of alignment
 date: "2023-12-07"
 ---
 
