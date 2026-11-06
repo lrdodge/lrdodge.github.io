@@ -29,6 +29,18 @@ Store posts directly in `content/blog` as `post-slug.md`, for example
 Keep the `title` and `date` frontmatter in each post. The frontmatter date controls
 the displayed publication date, post ordering, and RSS feed.
 
+Add an optional `tagline` to display a subtitle beneath a post's title:
+
+```yaml
+---
+title: "Your post title"
+date: "2026-11-05"
+tagline: "An optional subtitle for this post"
+---
+```
+
+Omit `tagline` for posts that don't need a subtitle.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

@@ -20,12 +20,20 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          {post.frontmatter.tagline && (
+            <p className="post-tagline">{post.frontmatter.tagline}</p>
+          )}
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <p className="post-date">
+          Published{" "}
+          <time dateTime={post.frontmatter.isoDate} itemProp="datePublished">
+            {post.frontmatter.date}
+          </time>
+        </p>
         <hr />
         <footer>
           <ContactMe />
@@ -90,7 +98,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        isoDate: date(formatString: "YYYY-MM-DD")
         description
+        tagline
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
