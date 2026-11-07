@@ -1,6 +1,6 @@
 ---
-title: Curiosity is one of the best forms of urgency
-tagline: Why the most important questions are often the ones nobody is asking yet.
+title: Curiosity is an effective form of urgency
+tagline: Why the most important questions are often the ones nobody is asking yet
 date: "2026-09-09"
 ---
 
