@@ -1,5 +1,6 @@
 ---
 title: Nobody knows what they're doing with AI yet (and that's okay)
+tagline: When the ground keeps shifting, learning matters more than knowing
 date: "2026-04-29"
 ---
 
