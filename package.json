@@ -8,24 +8,16 @@
     "url": "https://github.com/lrdodge/lrdodge.github.io/issues"
   },
   "dependencies": {
-    "@fontsource-variable/montserrat": "^5.3.0",
-    "@fontsource/merriweather": "^5.3.0",
+    "@lekoarts/gatsby-theme-minimal-blog": "^6.2.6",
     "gatsby": "^5.16.1",
     "gatsby-plugin-feed": "^5.16.0",
     "gatsby-plugin-google-gtag": "^5.16.0",
-    "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
-    "gatsby-plugin-sharp": "^5.16.0",
-    "gatsby-remark-images": "^7.16.0",
-    "gatsby-remark-prismjs": "^7.16.0",
-    "gatsby-remark-responsive-iframe": "^6.16.0",
-    "gatsby-source-filesystem": "^5.16.0",
-    "gatsby-transformer-remark": "^6.16.0",
-    "gatsby-transformer-sharp": "^5.16.0",
-    "prismjs": "^1.30.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "decode-uri-component": "file:compat/decode-uri-component"
+    "decode-uri-component": "file:compat/decode-uri-component",
+    "theme-ui": "~0.15.3"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
@@ -41,10 +33,10 @@
     "url": "git+https://github.com/lrdodge/lrdodge.github.io.git"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "GATSBY_TELEMETRY_DISABLED=1 GATSBY_FEEDBACK_DISABLED=1 gatsby build",
+    "develop": "GATSBY_TELEMETRY_DISABLED=1 GATSBY_FEEDBACK_DISABLED=1 gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "GATSBY_TELEMETRY_DISABLED=1 GATSBY_FEEDBACK_DISABLED=1 gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "node scripts/check-decoder.cjs && npm run build && node scripts/check-build.cjs",
@@ -64,7 +56,6 @@
     "sharp": "^0.35.5",
     "path-to-regexp": "0.1.13",
     "@graphql-tools/utils": "^13.2.1",
-    "@parcel/reporter-dev-server": "^2.16.4",
     "uuid": "^11.1.1",
     "webpack-dev-middleware": "^7.4.6",
     "decode-uri-component": "$decode-uri-component"

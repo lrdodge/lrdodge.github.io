@@ -1,7 +1,13 @@
 ---
 title: Knowing how to pause is your competitive advantage
 tagline: Why good judgement matters more in the age of AI
+description: Why good judgement matters more in the age of AI
 date: "2026-07-01"
+slug: "/the-deliberate-pause/"
+tags:
+  - AI
+  - Decision Making
+  - Engineering Leadership
 ---
 
 The more I work with AI as an engineering manager, the more I find one skill has become dramatically more valuable: the deliberate pause.

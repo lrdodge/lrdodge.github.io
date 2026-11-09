@@ -1,6 +1,11 @@
 ---
 title: Best practices for promoting managers from within (and why you should)
 date: "2023-09-22"
+slug: "/hiring-managers-internally/"
+tags:
+  - Hiring
+  - Leadership
+  - Management
 ---
 
 The importance of nurturing talent from within cannot be overstated. Promoting employees to new roles, especially within the engineering domain, fosters loyalty and trust and strengthens the company's internal culture.

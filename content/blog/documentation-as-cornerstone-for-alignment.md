@@ -1,6 +1,11 @@
 ---
 title: Documentation is the cornerstone of alignment
 date: "2023-12-07"
+slug: "/documentation-as-cornerstone-for-alignment/"
+tags:
+  - Communication
+  - Documentation
+  - Teams
 ---
 
 Effective communication is the bedrock upon which successful teams are built. The ability of a team to align, collaborate, and execute depends heavily on the clarity and accessibility of information.

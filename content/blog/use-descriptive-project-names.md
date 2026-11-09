@@ -1,6 +1,11 @@
 ---
 title: "There is great power in a descriptive project name"
 date: "2023-12-29"
+slug: "/use-descriptive-project-names/"
+tags:
+  - Communication
+  - Project Management
+  - Software Engineering
 ---
 
 Where efficiency and clarity reign supreme, the choice of project names plays a crucial role. While version numbering remains a steadfast practice, this discussion delves into the advantages of steering clear of the generic "Notifications Version 3" or "Home Screen Phase 2" approach. Let's explore why embracing descriptive titles can revolutionize conceptualizing, communicating, and executing projects.

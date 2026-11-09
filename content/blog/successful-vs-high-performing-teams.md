@@ -1,6 +1,11 @@
 ---
 title: How to identify successful vs. high-performing teams
 date: "2024-01-26"
+slug: "/successful-vs-high-performing-teams/"
+tags:
+  - Engineering Leadership
+  - Performance
+  - Teams
 ---
 
 It's crucial to recognize that not all successful teams are inherently high-performing. While success revolves around meeting user needs and achieving project completion, high performance extends further, emphasizing efficiency, quality, and timely delivery. It's imperative for long-term growth to foster teams that are not just successful but also high-performing.

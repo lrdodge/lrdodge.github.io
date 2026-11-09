@@ -1,6 +1,11 @@
 ---
 title: Define your team's success to always win
 date: "2023-11-20"
+slug: "/define-your-teams-success/"
+tags:
+  - Engineering Leadership
+  - Project Management
+  - Teams
 ---
 
 Crunch time. We’ve all been there, but everything is wrong. You can feel your goals slipping further and further away every day. It seems inevitable you’ll be missing your targets. The feeling among the team is palpable. These moments have a long-lasting negative impact on team morale and future performance.

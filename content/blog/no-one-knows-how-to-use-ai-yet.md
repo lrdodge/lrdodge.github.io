@@ -1,7 +1,13 @@
 ---
 title: Nobody knows what they're doing with AI yet (and that's okay)
 tagline: When the ground keeps shifting, learning matters more than knowing
+description: When the ground keeps shifting, learning matters more than knowing
 date: "2026-04-29"
+slug: "/no-one-knows-how-to-use-ai-yet/"
+tags:
+  - AI
+  - Leadership
+  - Learning
 ---
 
 As an engineering manager, I spend a lot of time talking about AI. Mostly answering questions.

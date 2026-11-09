@@ -1,7 +1,12 @@
 ---
 title: Curiosity is an effective form of urgency
 tagline: Why the most important questions are often the ones nobody is asking yet
+description: Why the most important questions are often the ones nobody is asking yet
 date: "2026-09-09"
+slug: "/curiosity-is-urgency/"
+tags:
+  - Curiosity
+  - Leadership
 ---
 
 Curiosity is a form of urgency.

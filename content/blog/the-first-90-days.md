@@ -1,6 +1,11 @@
 ---
 title: Your first 90 days are about trust, not productivity
 date: "2025-08-20"
+slug: "/the-first-90-days/"
+tags:
+  - Career
+  - Leadership
+  - Trust
 ---
 
 The first 90 days at a new company are a brutal learning curve.
