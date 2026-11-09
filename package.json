@@ -48,7 +48,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "node scripts/check-decoder.cjs && npm run build && node scripts/check-build.cjs",
-    "deploy": "gatsby build && gh-pages -d public -b site",
+    "deploy": "gatsby build && gh-pages -d public -b site && git push",
     "help": "gh-pages --help"
   },
   "engines": {
