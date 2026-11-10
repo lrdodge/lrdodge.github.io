@@ -19,6 +19,7 @@ module.exports = {
       options: {
         postsPath: `content/blog`,
         pagesPath: `content/pages`,
+        formatString: `DD MMM YYYY`,
         navigation: [
           {
             title: `Blog`,

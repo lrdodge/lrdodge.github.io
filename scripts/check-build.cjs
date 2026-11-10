@@ -9,6 +9,7 @@ const readPageData = route =>
 const blog = readPageData("blog")
 const posts = blog.result.data.allPost.nodes
 assert.equal(posts.length, 10, "The blog must contain all ten posts")
+assert.match(posts[0].date, /^\d{2} [A-Z][a-z]{2} \d{4}$/)
 
 const feed = read("rss.xml")
 for (const post of posts) {
