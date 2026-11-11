@@ -1,6 +1,6 @@
 # Luke Dodge
 
-Luke Dodge's personal blog, built with Gatsby and
+Luke Dodge's personal site and writing, built with Gatsby and
 [`@lekoarts/gatsby-theme-minimal-blog`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-minimal-blog).
 
 ## Local development
@@ -16,7 +16,7 @@ npm run develop
 `npm test` validates the production build, all post routes, the homepage, About
 page, tags, RSS, sitemap, 404 page, and manifest icons.
 
-## Writing posts
+## Publishing thoughts
 
 Store posts in `content/blog` as Markdown files. Keep the existing frontmatter
 shape:

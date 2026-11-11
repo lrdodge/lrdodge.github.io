@@ -6,7 +6,7 @@ module.exports = {
     siteTitle: `Luke Dodge`,
     siteTitleAlt: `Luke Dodge — Engineering and Leadership`,
     siteHeadline: `Engineering leadership, software development, and curious problem solving`,
-    siteUrl: `https://lrdodge.github.io/`,
+    siteUrl: `https://lrdodge.github.io`,
     siteDescription: `Writing about engineering, leadership, curiosity, and building great teams.`,
     siteImage: `/favicon.ico`,
     siteLanguage: `en`,
@@ -17,13 +17,14 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
+        blogPath: `/thoughts`,
         postsPath: `content/blog`,
         pagesPath: `content/pages`,
         formatString: `DD MMM YYYY`,
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Thoughts`,
+            slug: `/thoughts`,
           },
           {
             title: `About`,
@@ -82,7 +83,7 @@ module.exports = {
               }
             }`,
             output: `/rss.xml`,
-            title: `Luke Dodge Blog RSS Feed`,
+            title: `Luke Dodge Thoughts RSS Feed`,
           },
         ],
       },
@@ -96,7 +97,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Luke Dodge Blog`,
+        name: `Luke Dodge`,
         short_name: `Luke Dodge`,
         description: `Writing about engineering, leadership, curiosity, and building great teams.`,
         start_url: `/`,

@@ -6,17 +6,18 @@ const read = file => fs.readFileSync(path.join("public", file), "utf8")
 const readPageData = route =>
   JSON.parse(read(path.join("page-data", route, "page-data.json")))
 
-const blog = readPageData("blog")
-const posts = blog.result.data.allPost.nodes
-assert.equal(posts.length, 10, "The blog must contain all ten posts")
+const thoughts = readPageData("thoughts")
+const posts = thoughts.result.data.allPost.nodes
+assert.equal(posts.length, 10, "Thoughts must contain all ten posts")
 assert.match(posts[0].date, /^\d{2} [A-Z][a-z]{2} \d{4}$/)
 
-const homepageData = readPageData("index")
-assert.equal(
-  homepageData.result.data.allPost.nodes.length,
-  5,
-  "The homepage must show the five latest posts"
-)
+const thoughtsHtml = read("thoughts/index.html")
+assert(thoughtsHtml.includes(">My Thoughts</h1>"))
+assert(thoughtsHtml.includes("<title data-gatsby-head=\"true\">My Thoughts | Luke Dodge</title>"))
+assert(thoughtsHtml.includes('property="og:title" content="My Thoughts | Luke Dodge"'))
+assert(thoughtsHtml.includes('property="og:url" content="https://lrdodge.github.io/thoughts/"'))
+assert(!thoughtsHtml.includes(">Blog</h1>"))
+assert(!thoughtsHtml.includes(">Blog | Luke Dodge</title>"))
 
 const feed = read("rss.xml")
 for (const post of posts) {
@@ -28,16 +29,19 @@ for (const post of posts) {
 }
 
 const homepage = read("index.html")
+for (const post of posts.slice(0, 5)) {
+  assert(homepage.includes(`href="${post.slug}"`), `Homepage is missing ${post.title}`)
+}
 assert(homepage.includes("Luke Dodge"))
 assert(homepage.includes("engineering leader"))
 assert(homepage.includes("Feedback course"))
-assert(homepage.includes('href="/blog/"'))
+assert(homepage.includes('href="/thoughts/"'))
 assert(homepage.includes('href="/about/"'))
 assert(homepage.includes("https://www.linkedin.com/in/luke-dodge/"))
 
 const about = read("about/index.html")
 assert(about.includes("Kansas City"))
-assert(about.includes("building useful things and leading cool people"))
+assert(about.includes("software engineer turned engineering leader"))
 
 const taglinedPost = read("the-deliberate-pause/index.html")
 assert(taglinedPost.includes("Why good judgement matters more in the age of AI"))

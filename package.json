@@ -1,7 +1,7 @@
 {
-  "name": "luke-dodge-blog",
+  "name": "luke-dodge-thoughts",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Luke Dodge's writing on engineering, leadership, and building great teams",
   "version": "0.1.0",
   "author": "Luke Dodge <luke.r.dodge@gmail.com>",
   "bugs": {
