@@ -11,6 +11,13 @@ const posts = blog.result.data.allPost.nodes
 assert.equal(posts.length, 10, "The blog must contain all ten posts")
 assert.match(posts[0].date, /^\d{2} [A-Z][a-z]{2} \d{4}$/)
 
+const homepageData = readPageData("index")
+assert.equal(
+  homepageData.result.data.allPost.nodes.length,
+  5,
+  "The homepage must show the five latest posts"
+)
+
 const feed = read("rss.xml")
 for (const post of posts) {
   const route = post.slug.replace(/^\//, "").replace(/\/$/, "")
