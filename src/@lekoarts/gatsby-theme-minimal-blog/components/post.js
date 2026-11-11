@@ -4,7 +4,6 @@ import { jsx, Heading } from "theme-ui"
 import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 import ItemTags from "@lekoarts/gatsby-theme-minimal-blog/src/components/item-tags"
 import Seo from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo"
-import PostFooter from "./post-footer"
 
 const px = [`16px`, `8px`, `4px`]
 const shadow = px.map(
@@ -64,7 +63,6 @@ const Post = ({ data: { post }, children }) => (
     >
       {children}
     </section>
-    <PostFooter post={post} />
   </Layout>
 )
 

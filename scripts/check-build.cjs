@@ -46,7 +46,7 @@ assert(about.includes("software engineer turned engineering leader"))
 const taglinedPost = read("the-deliberate-pause/index.html")
 assert(taglinedPost.includes("Why good judgement matters more in the age of AI"))
 assert(
-  taglinedPost.includes(
+  !taglinedPost.includes(
     "Ready to Implement These Ideas at Your Company? Contact Me!"
   )
 )
