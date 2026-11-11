@@ -1,5 +1,7 @@
 ---
 title: Your first 90 days are about trust, not productivity
+tagline: Sometimes the best way to make an impact is to stop trying so hard to make one
+description: Sometimes the best way to make an impact is to stop trying so hard to make one
 date: "2025-08-20"
 slug: "/the-first-90-days/"
 tags:
