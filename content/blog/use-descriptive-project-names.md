@@ -1,5 +1,7 @@
 ---
 title: "There is great power in a descriptive project name"
+tagline: What we call our projects shapes how we understand the work, define success, and decide when we're done
+description: What we call our projects shapes how we understand the work, define success, and decide when we're done
 date: "2023-12-29"
 slug: "/use-descriptive-project-names/"
 tags:
@@ -8,24 +10,42 @@ tags:
   - Software Engineering
 ---
 
-Where efficiency and clarity reign supreme, the choice of project names plays a crucial role. While version numbering remains a steadfast practice, this discussion delves into the advantages of steering clear of the generic "Notifications Version 3" or "Home Screen Phase 2" approach. Let's explore why embracing descriptive titles can revolutionize conceptualizing, communicating, and executing projects.
+Somewhere in your company's backlog is a project called "Important Thing V2."
 
-## Setting Expectations and Defining Goals
+Nobody remembers exactly what happened in V2, and nobody's quite sure what V2 is supposed to accomplish. But there's a decent chance V4 is already being discussed.
 
-Traditional numerical titles, though functional in their own right, often fall short of providing a clear understanding of a project's essence. Descriptive titles, on the other hand, immediately set expectations and define goals. Imagine trying to decipher the contents of "Notifications V3" - a seemingly endless saga with no apparent conclusion. Contrast that with the crisp and purposeful "Update Signup Form," which not only describes the focus but also establishes a shared expectation for success.
+I've seen plenty of projects named this way, and I understand the temptation. It's easy, familiar, and gives everyone a sense that we're making progress. After all, if we've made it to version three, we must have accomplished something in the first two, right?
 
-## Creating Boundaries and Managing Scope
+But I've come to think that how we name projects has more influence on how we approach them than we might realize.
 
-One of the challenges with numerical titles is their potential to become an indefinite catchall. The absence of a defined scope can lead to scope creep, as the project's purpose remains vague. Descriptive titles act as project boundaries, offering a clear delineation of what falls within the project's purview. For instance, "Billing Payment Methods Update" underlines a specific focus, making deviations more noticeable and subject to scrutiny.
+## Naming the Outcome
 
-## Clarity in Codebase Management
+Take "Notifications V2" and compare it to "Let Users Customize Their Notifications." Both could describe the same work, but they communicate very different things. One tells us which part of the product we're working on. The other tells us what we're trying to accomplish.
 
-In the labyrinth of a growing codebase, the importance of clarity cannot be overstated. Numerical versions may leave you guessing about the relevance of a particular feature or component. A component named "NotificationsV2" may beg the question: Is there a V3 or a V9? Descriptive titles eliminate the need for such exhaustive context by standing alone. They offer a snapshot of a feature's status, making it clear whether it is current or outdated, without requiring a deep dive into the entire system.
+That distinction matters when you're trying to get a team aligned around a shared goal. A descriptive name gives everyone a starting point for understanding the work, even if they haven't been involved in the planning. It also gives us something to measure success against. When we've delivered customizable notifications, we can reasonably say the project is done. When have we finished Notifications V2? Presumably when we're ready to start V3.
 
-## Simplifying Cleanup Efforts
+There's also the question of scope. I've found that projects with vague names have a tendency to collect unrelated work. If we're already touching notifications, why not sneak in that other improvement we've been putting off? It seems harmless enough, especially when the project name doesn't give us much reason to say no.
 
-The aftermath of a project often involves cleaning up outdated code. Numerically titled projects can complicate this process, demanding meticulous renaming or deletion efforts. In contrast, a well-named project, flagged as deprecated or legacy from the outset, streamlines the cleanup process. No more scrambling to decipher which version is current or what should be deleted – a simple removal of the marked legacy code concludes the project seamlessly.
+A more specific name doesn't prevent scope creep, but it makes those conversations easier. We can ask whether a proposed change actually contributes to the goal or whether it deserves its own project. Sometimes the extra work makes sense. At least we're making that decision intentionally.
 
-## Conclusion
+## When Names Outlive Their Projects
 
-While version numbering remains a crucial aspect of project management, the benefits of adopting descriptive project names are undeniable. They set expectations, create boundaries, enhance communication, and simplify cleanup efforts. So, before diving into the next project, consider the power of a name – one that tells a story, defines a purpose, and stands the test of time. After all, in project management, a well-chosen name can be the key to success.
+This gets even more interesting when the naming convention makes its way into the codebase.
+
+Anyone who's spent time maintaining an older system has probably encountered something like `NotificationsV2`, `NotificationsV3`, and `NotificationsNew`. Which one is current? Is V2 still being used somewhere? Was `NotificationsNew` created before or after V3? Is there a `NotificationsV4` somewhere that we just didn't see?
+
+And, more importantly, which one can we safely delete?
+
+Version numbers are useful when we're actually managing versions of something. There's nothing wrong with them in the right context. But using them as a default for projects and features can leave us carrying around history that doesn't tell us much about the present.
+
+## A Useful Question Before We Start
+
+Of course, descriptive names aren't magic. They can become outdated, and a good name won't rescue a poorly defined project. But I've found the exercise of naming a project to be useful in its own right.
+
+If we're struggling to come up with a name that describes what we're trying to accomplish, there's a reasonable chance we haven't quite figured it out yet. Maybe we're bundling together several unrelated changes. Maybe we know which system needs work but haven't agreed on the outcome. Or maybe we're simply continuing something because it was already on the roadmap.
+
+Those are useful conversations to have before anyone starts writing code.
+
+So the next time "Dashboard V5" comes up in planning, it's worth asking what V5 is actually supposed to do. You might end up with a better project name, or you might discover that the team still has some figuring out to do.
+
+Either way, that's probably more useful than getting a head start on V6.
