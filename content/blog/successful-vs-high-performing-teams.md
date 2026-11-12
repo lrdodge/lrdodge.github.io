@@ -1,5 +1,7 @@
 ---
-title: How to identify successful vs. high-performing teams
+title: Successful teams aren't always high-performing teams
+tagline: Why delivering results and building a great team aren't quite the same thing
+description: Why delivering results and building a great team aren't quite the same thing
 date: "2024-01-26"
 slug: "/successful-vs-high-performing-teams/"
 tags:
@@ -8,66 +10,90 @@ tags:
   - Teams
 ---
 
-It's crucial to recognize that not all successful teams are inherently high-performing. While success revolves around meeting user needs and achieving project completion, high performance extends further, emphasizing efficiency, quality, and timely delivery. It's imperative for long-term growth to foster teams that are not just successful but also high-performing.
+I've worked with teams that consistently delivered what was asked of them but struggled with how they worked together. I've also seen teams with good processes, strong communication, and talented engineers who somehow struggled to deliver anything meaningful.
 
-## Identifying Success and High-Performance
+Both situations can be frustrating, especially when you're trying to understand what actually needs to improve.
 
-This distinction between successful and high-performing teams is crucial for recognizing the unique challenges and characteristics of each team type. Let's explore examples highlighting the difference between successful and high-performing teams.
+We tend to use words like *successful* and *high-performing* interchangeably when talking about teams. It makes sense. We want our teams to deliver great results, and it's natural to assume that teams delivering those results must be doing something right.
 
-### Project Completion
+But I think there's a useful distinction between the two, particularly when you're responsible for helping a team improve.
 
-* Successful Teams: Prioritize delivering projects up to the Minimum Viable Product (MVP), often falling short of exceeding ambitious project goals. Their emphasis may lead to compromises in terms of quality and efficiency.
-* High-Performing Teams: Not only complete projects but excel in exceeding project goals with a focus on quality and efficiency. Their commitment goes beyond minimal requirements, ensuring outstanding outcomes for every project.
+A successful team delivers the outcomes it's responsible for. A high-performing team has developed the ability to deliver those outcomes effectively, consistently, and sustainably.
 
-### Adaptability
+Ideally, you want both. But one doesn't necessarily guarantee the other.
 
-* Successful Teams: Exhibit a degree of adaptability to changing project requirements and user needs, but may struggle with proactively embracing innovation.
-* High-Performing Teams: Embrace a proactive stance toward innovation, continuously adapting and introducing improvements to stay ahead. Their adaptability extends beyond the basics, incorporating a forward-thinking approach to anticipate and meet future challenges.
+## Success Is About Outcomes
 
-### Leadership
+Imagine a software engineering team tasked with launching a new feature. They hit the deadline, customers are happy, and the business gets what it needs. By most reasonable definitions, that's a success.
 
-* Successful Teams: Leaders guide the team toward project completion, but their effectiveness may be limited to task-oriented directives.
-* High-Performing Teams: Demonstrate strong leadership that not only directs but inspires and empowers team members, fostering a culture of excellence. This leadership style encourages innovation and proactive contributions from every team member.
+Now imagine that getting there required months of overtime, constant firefighting, poor communication, and a codebase that nobody wants to touch again.
 
-### Communication
+I'd still call that a success, at least in terms of the outcome. The team accomplished what it set out to do. But I wouldn't call it a high-performing team, and I certainly wouldn't want to repeat the experience.
 
-* Successful Teams: Emphasize effective collaboration to meet project goals, but communication may lack the depth and transparency required for optimal understanding among team members. This can lead to potential misunderstandings and inefficiencies in project execution.
-* High-Performing Teams: Foster clear, open, and dynamic communication channels, ensuring efficient information flow among team members. Their proactive communication approach contributes to a cohesive team environment, reducing the likelihood of misunderstandings and enhancing overall efficiency.
+It's tempting to look at a successful delivery and assume the team is functioning well. We celebrate the launch, congratulate everyone involved, and move on to the next project. Meanwhile, the problems that made the work unnecessarily difficult are still there.
 
-### Feedback and Continuous Improvement
+Success tells us whether we got where we wanted to go. It doesn't necessarily tell us how we got there or whether we can do it again.
 
-* Successful Teams: Gather user feedback for feature enhancements, but the commitment to continuous improvement may lack depth. Internal and external feedback may not be systematically sought, potentially leading to missed opportunities for refining processes and outcomes.
-* High-Performing Teams: Embrace a robust culture of continuous improvement, actively seeking and incorporating both internal and external feedback. This systematic approach ensures ongoing refinement of processes and outcomes, contributing to sustained excellence and adaptability.
+## Performance Is About Capability
 
-### Risk Management
+When I think about high-performing teams, I'm less interested in how quickly they complete a particular project and more interested in how they operate over time.
 
-* Successful Teams: Manage risks to ensure project completion within established parameters, but the approach may be reactive rather than proactive. This reactive stance may result in challenges in handling unforeseen issues, potentially causing disruptions to timelines and project quality.
-* High-Performing Teams: Proactively identify and mitigate risks, demonstrating a robust risk management strategy. Their forward-thinking approach minimizes potential disruptions, showcasing a commitment to maintaining both timelines and the quality of project deliverables.
+I'm looking at how they adapt when priorities change, whether they recognize problems early enough to do something about them, and how well they work through disagreements without needing someone to constantly intervene. I'm also interested in whether they're learning from their experiences and improving along the way.
 
-### Client Satisfaction
+These qualities don't always show up in a project status report, but they influence nearly everything a team accomplishes.
 
-* Successful Teams: Primarily focus on delivering a product that satisfies user and stakeholder requirements, but the emphasis may fall short of creating exceptional client experiences. This approach may result in meeting expectations without consistently exceeding them, potentially hindering the development of lasting relationships.
-* High-Performing Teams: Go beyond mere satisfaction, actively aiming for exceptional client experiences. By consistently exceeding expectations, they meet and surpass client needs, fostering long-lasting and meaningful relationships built on trust and outstanding service.
+Two teams might deliver similar results, but one gets there through clear communication, good judgment, and the ability to adapt. The other succeeds because a few experienced engineers repeatedly step in to rescue the project.
 
-### Metrics and KPIs
+The results look identical from the outside, but one team has developed a way of working that makes success repeatable. The other is relying on individual heroics to compensate for problems in how the team operates.
 
-* Successful Teams: Track project milestones and completion metrics, but the scope of their metrics may be limited. They may focus on basic project metrics without delving into a more comprehensive set, potentially missing out on valuable insights related to code quality, delivery times, team efficiency, and other relevant performance indicators.
-* High-Performing Teams: Demonstrate a commitment to excellence by utilizing a comprehensive set of KPIs. Their metrics span beyond project milestones, encompassing code quality, delivery times, team efficiency measures, and various other relevant indicators. This broader approach provides a more holistic view, facilitating strategic decision-making and continual improvement.
+And heroics have a way of becoming expectations if we're not careful.
 
-### Employee Satisfaction and Retention
+## The Danger of Optimizing for Performance
 
-* Successful Teams: Strive to maintain a positive work environment to retain team members, but the effort may fall short of significantly impacting turnover rates. While the environment remains generally positive, challenges in consistently fostering higher engagement and cohesive motivation among team members may hinder the achievement of optimal retention levels.
-* High-Performing Teams: Stand out by actively prioritizing employee satisfaction, resulting in significantly lower turnover rates, heightened engagement, and a more cohesive and motivated workforce. Their commitment to fostering a positive workplace culture contributes to building enduring relationships with team members.
+There's another side to this distinction that I think gets overlooked.
 
-### Strategic Alignment
+It's possible to become so focused on building a high-performing team that we lose sight of what the team is supposed to accomplish.
 
-* Successful Teams: Strive to align with overall business goals to contribute to the company's success, but the alignment may be more surface-level. While efforts are made to support broader objectives, the understanding and depth of alignment with long-term organizational objectives may need to be improved.
-* High-Performing Teams: Elevate strategic alignment by ensuring a deep understanding of the business strategy. They actively align projects with long-term organizational objectives, positioning themselves as strategic assets that contribute meaningfully to the company's overarching success. This comprehensive alignment sets the stage for sustained excellence and innovation.
+Engineering organizations are particularly susceptible to this. We have plenty of ways to measure and improve how we work: cycle time, deployment frequency, code quality, test coverage, incident rates, and more.
 
-## In Conclusion
+Those can all be useful indicators. But none of them, individually or collectively, guarantees that we're delivering something valuable.
 
-Distinguishing between the qualities of successful and high-performing teams is paramount for fostering a culture of excellence. Recognizing the unique characteristics and potential pitfalls of each set of attributes allows organizations to strategically navigate challenges and capitalize on strengths.
+A team might have excellent engineering practices and a beautifully maintained codebase while spending six months building a feature that nobody needs. We can admire the craftsmanship, but it's hard to call that a success.
 
-Yet, as the distinction unfolds, it becomes clear that being a high-performing team demands a more intricate and proactive approach. While the path to high performance is more challenging, success should always take precedence over performance. As teams strive for excellence, it becomes evident that achieving success is an essential precursor to high performance.
+I've found it helpful to think of performance as the team's ability to deliver results, rather than the results themselves. Improving that ability matters because it makes future success more likely, not because better metrics are inherently the goal.
 
-Ultimately, the journey toward building exceptional software engineering teams involves a strategic focus on success, a nuanced understanding of the success-performance relationship, caution against overemphasis, and awareness of potential pitfalls. In this intricate dance, success paves the way for high performance, creating a sustainable and innovative environment that propels teams toward continuous refinement and excellence.
+This also means that higher performance doesn't always mean doing more.
+
+Sometimes it means recognizing that a project isn't worth pursuing. Sometimes it's having the confidence to push back on an unrealistic deadline or the judgment to choose a simpler solution over a technically impressive one.
+
+A team that delivers fewer things but consistently delivers the right things may be far more effective than one that keeps the deployment pipeline busy.
+
+## Building Both Takes Different Kinds of Attention
+
+As an engineering manager, I've found that this distinction helps me think about where to focus my attention when a team is struggling.
+
+If a team isn't succeeding, I want to understand whether we're working toward the right outcomes. Do we understand what we're trying to accomplish? Are we solving the right problems? Does the team have what it needs to deliver?
+
+If a team is succeeding but struggling with performance, I'm more interested in what's making the work difficult. Maybe we're depending too heavily on particular individuals, or the same problems keep coming back because we never have time to address them properly.
+
+And if a team is performing well but not succeeding, I need to consider what's happening outside the team. Priorities might be unclear, the strategy might be wrong, or we're measuring progress in ways that don't reflect what customers actually need.
+
+Not every problem can be solved by asking engineers to work better together.
+
+There's also a practical limit to how much improvement a team can take on at once. Sometimes it's worth accepting an imperfect process because we have something more important to deliver. Other times, we need to slow down and address a problem that's been making every project harder than the last.
+
+The challenge is figuring out which problems are worth addressing now and which ones can wait.
+
+## Success Comes First, but It Shouldn't Come Alone
+
+If I had to choose between a successful team and a high-performing team, I'd choose success. A team that works beautifully together but doesn't accomplish anything valuable isn't fulfilling its purpose.
+
+That doesn't mean I'd be satisfied with the results alone.
+
+Success without strong performance can become exhausting. Eventually, the shortcuts, dependencies, and accumulated problems catch up with us. And performance without success is just a well-organized way to spend time.
+
+I want to build teams that deliver meaningful results while continuing to develop the skills, relationships, and ways of working that make those results sustainable.
+
+That doesn't mean every project will go smoothly or every decision will be the right one. Even great teams have difficult stretches, make mistakes, and occasionally need someone to pull off a rescue.
+
+What matters is whether those experiences leave the team better prepared for whatever comes next.
