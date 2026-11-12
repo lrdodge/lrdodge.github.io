@@ -1,5 +1,7 @@
 ---
-title: Best practices for promoting managers from within (and why you should)
+title: The challenge of promoting engineering managers from within (and why you should)
+tagline: How do you give someone a chance to lead when they haven't had the chance to lead yet?
+description: How do you give someone a chance to lead when they haven't had the chance to lead yet?
 date: "2023-09-22"
 slug: "/hiring-managers-internally/"
 tags:
@@ -8,120 +10,84 @@ tags:
   - Management
 ---
 
-The importance of nurturing talent from within cannot be overstated. Promoting employees to new roles, especially within the engineering domain, fosters loyalty and trust and strengthens the company's internal culture.
+One of the frustrating things about moving into engineering management is that experience seems to be a prerequisite for getting the very experience you're looking for.
 
-Internal promotions don’t have to be a struggle. They can be a win-win for both the company and the employees. In this article, we'll delve into seven best practices for hiring engineering managers internally and how to ensure the process is both effective and enriching.
+We encourage engineers to take ownership, mentor their teammates, and develop leadership skills. We talk about growing our own leaders. But when an engineering manager position opens up, those same engineers may find themselves competing against people who've already spent years doing the job.
 
-## 1. Clearly Define Your Hiring Goals
+It's not hard to guess who's going to have better stories for the interview.
 
-Before you embark on the journey of promoting from within, it's essential to establish clear objectives for the process. Internal promotions should not be a mere formality but a strategic move to retain and nurture your existing talent pool. By providing a path for growth, you demonstrate to your employees that the company values their contributions and is committed to their professional development.
+I understand the hesitation. Hiring an engineering manager is an important decision, and the consequences of getting it wrong affect more than just the person taking the role. An experienced external candidate might feel like a safer choice, especially when a team needs someone who can step in immediately.
 
-However, it's crucial to emphasize that opening internal applications should not be done merely as a courtesy. It's important to believe fully in the capabilities of internal candidates and their readiness for the role. Doing so without genuine intent to hire them can lead to negative consequences, including a loss of employee confidence in the promotion process and potential talent attrition.
+But if we want to develop leaders internally, we need to think about how we're preparing people for those opportunities and whether our hiring process gives them a reasonable chance to demonstrate they're ready.
 
-While internal promotions are a valuable strategy, it's also acceptable to consider external hires when they align with your company's deliberate goals. For instance, you may be seeking external expertise to complement your internal talent pool, guide internal promotions, or fill a specific skill gap.
+## Develop Leaders Before You Need Them
 
-### Case Study: InfinitiMind
+The worst time to start preparing someone for management is when the position opens.
 
-InfinitiMind, a rapidly growing AI company, faced a critical need for an Engineering Manager. Instead of immediately turning to external candidates, the forward-thinking leadership team decided to prioritize internal talent. They did so by clearly defining their hiring goals and recognizing the untapped potential within their existing team.
+By that point, there's usually pressure to fill the role quickly. Someone who hasn't had opportunities to develop leadership skills may be a promising candidate, but they'll struggle to demonstrate abilities they've never been asked to practice.
 
-Through a structured approach, they identified Rachel, a high-potential engineer, and initiated a mentorship program designed to prepare her for the managerial role. Rachel's successful transition exemplified the company's commitment to employee development and demonstrated its agility in promoting from within, all while saving on recruitment costs.
+I think career development works best as an ongoing conversation. When an engineer expresses interest in management, I want to understand what appeals to them and help them find opportunities to explore it. That might mean mentoring a junior engineer, leading a cross-functional project, or helping work through a difficult team decision.
 
-This strategic decision not only retained employee loyalty but also proved cost-efficient, showcasing the value of nurturing internal talent for leadership growth in a rapidly expanding organization. The benefits were multifold, including streamlined recruitment processes, heightened employee morale, and the cultivation of a stronger internal culture that prioritized growth and development.
+These experiences help develop leadership skills, but they're also a chance to find out whether someone actually enjoys the work.
 
-## 2. Prepare Internal Candidates with Interview Insights
+It's easy to treat management as the natural next step for a successful engineer, especially in organizations where career progression is tied to titles and authority. But being a strong engineer doesn't automatically mean someone will enjoy managing people. There's nothing wrong with wanting to stay technical, either.
 
-The transition from an individual contributor to a managerial role can be daunting. To help your internal candidates succeed, provide them with guidance on what the interview process will entail. While you don't need to disclose exact questions, offering insight into the themes and concepts that will be explored can alleviate anxiety and allow candidates to prepare more effectively.
+I'd rather help someone discover that management isn't for them before they've committed to a career change they don't enjoy.
 
-Remember, your goal is to see the authentic potential of the candidate, not to catch them off guard. Consider organizing mock interviews where their existing manager or a seasoned leader plays the role of an interviewer, helping candidates refine their responses and build confidence.
+For those who do want to pursue it, the important thing is having a clear understanding of what they need to develop and meaningful opportunities to work toward it.
 
-This practical exercise is invaluable for candidates, allowing them to become familiar with interview scenarios and receive constructive feedback. Additionally, encourage candidates to reflect on their management philosophy and provide written responses to the anticipated interview themes. This self-assessment process not only enhances their ability to articulate their leadership approach but also aids in refining their skills and identifying areas for improvement.
+## Evaluate Potential, Not Just Experience
 
-Ultimately, these individualized preparations empower candidates to showcase their authentic potential during the interview process, reducing anxiety, and ensuring a smoother transition into managerial roles.
+One of the mistakes we can make when interviewing internal candidates is treating them exactly like external candidates.
 
-### Case Study: CloudWave Technologies
+Fairness doesn't necessarily mean asking everyone the same questions.
 
-Facing a need for engineering managers, CloudWave Technologies opted to promote from within. The HR Manager provided all potential internal candidates, including John, a senior engineer, with a list of key interview themes like conflict resolution, project management, and team collaboration. John, recognizing the opportunity, prepared specific examples from his experience to align with these themes. This proactive approach empowered John to confidently showcase their leadership potential during interviews, resulting in a structured and objective promotion process.
+An experienced engineering manager can describe difficult performance conversations, teams they've developed, and organizational changes they've led. An engineer applying for their first management role probably can't. That doesn't mean they lack the judgment to handle those situations. They just haven't had the opportunity yet.
 
-## 3. Leverage Your Inside Perspective
+For internal candidates, I'm more interested in how they think through problems, communicate, and make decisions. A hypothetical situation involving a disagreement between engineers, for example, can tell me quite a bit about how someone approaches conflict.
 
-One of the unique advantages of internal hiring is your inside perspective. You have the opportunity to go beyond the interview and gather insights from colleagues who have worked closely with the candidate. Don't rely solely on what is visible; actively seek feedback on how the candidate collaborates, mentors, and handles challenging situations. By taking advantage of this internal knowledge, you can make a more informed decision and demonstrate your commitment to the candidate's success.
+I'm not particularly interested in whether they know the textbook answer. I want to understand how they reason through the situation. Do they recognize the people involved? Are they comfortable acknowledging uncertainty? Do they ask questions before jumping to a solution?
 
-However, it's crucial to acknowledge that many sensitive conversations and leadership demonstrations occur behind closed doors, away from public channels. Relying solely on what is seen during interviews and from an outside perspective can be misleading. This approach may unintentionally overlook candidates who demonstrate high levels of maturity and leadership in private settings, leaving them feeling unseen and frustrated when denied opportunities they have been working towards but remain hidden from public view.
+We also have an advantage with internal candidates that we shouldn't overlook: we already know something about how they work.
 
-### Case Study: DataPulse
+Some of the most meaningful demonstrations of leadership happen where managers aren't watching. An engineer might regularly help teammates navigate difficult situations, resolve disagreements privately, or advocate for the team in conversations that never make it into a performance review.
 
-In the process of evaluating Rachel, a senior engineer, for promotion to the role of Engineering Manager, DataPulse recognized the unique advantages of internal hiring.
+Talking with colleagues who've worked closely with a candidate can help uncover those contributions. It can also challenge our existing impressions of someone whose reputation has been shaped primarily by their technical work.
 
-By conducting confidential interviews with Rachel's colleagues who had worked closely with her, the company delved deeper than the surface. These conversations unveiled Rachel's adeptness in handling challenging discussions with her product manager, Tom. While these interactions occurred behind closed doors, they demonstrated Rachel's effective advocacy for the engineering team and her ability to bridge departmental gaps.
+Of course, potential alone isn't enough. The role still has requirements, and we need to be confident the person can succeed. But we should be careful not to confuse a lack of experience with a lack of capability.
 
-Tom's feedback highlighted Rachel's hidden leadership potential, underscoring the importance of internal promotions in uncovering talents that might remain concealed from public view.
+## Be Honest About the Opportunity
 
-## 4. Incorporate Internal Hiring into Employee Growth Plans
+This is probably the part I feel most strongly about.
 
-To ensure that growth opportunities are accessible and appealing to all employees, it's vital to establish a clear path toward promotions with actionable steps. Opaque or seemingly arbitrary processes can be discouraging and hinder personal and professional development. The objective is to make securing a promotion within your company a straightforward and rewarding journey, surpassing the appeal of job-switching. By normalizing clear career trajectories, you not only retain valuable talent but also foster a culture where employees are motivated to invest in their growth within the organization, ultimately benefiting both the individual and the company as a whole.
+If we're going to encourage internal candidates to apply for management positions, we need to take their applications seriously.
 
-To keep your internal candidates competitive, offer avenues for them to acquire the necessary skills and experience. For instance, if managing direct reports is a requirement for the new role, consider offering opportunities for candidates to gain similar experience, such as mentoring interns or leading projects. By doing so, you not only prepare them for success but also demonstrate your commitment to their growth.
+Opening a role internally just to demonstrate that we're offering opportunities, when we've already decided to hire externally, does more harm than good. People invest time, energy, and a fair amount of personal hope in these opportunities.
 
-Internal promotions should be a part of your organization's growth process, but it's essential to understand that growth doesn't always mean moving into a managerial role. Not everyone aspires to be a manager, and being a skilled individual contributor doesn't guarantee success as a manager. Instead, focus on creating a culture of continuous improvement that respects diverse career aspirations, emphasizing personal and professional development tailored to individual preferences.
+They deserve to know where they stand.
 
-### Case Study: TechSolutions
+That doesn't mean everyone who wants to become a manager should be encouraged to apply immediately. There's value in having an honest conversation about readiness before someone enters the interview process.
 
-TechSolutions, a leading software development firm, redefined talent development by launching a comprehensive career development program that included leadership workshops for engineers.
+If I don't think someone is ready, I'd rather explain why, identify the gaps, and work with them on a development plan than let them go through an interview process that was unlikely to succeed.
 
-These workshops equipped employees with essential skills in team management, conflict resolution, and communication, offering a growth path even for those not immediately eligible for managerial roles. The result was remarkable—heightened employee retention and seamless transitions into managerial positions. For example, an aspiring engineer named Michael was given the chance to lead a cross-functional project team, allowing him to develop leadership skills proactively. This approach underscored the vital role of employee growth in achieving long-term organizational success.
+But I'd also be careful about making that decision for them. Sometimes people surprise us, and readiness isn't always obvious from someone's current responsibilities.
 
-## 5. Use a Different Interview Process for Internal Hires
+The important thing is to be transparent about expectations and give people a fair opportunity to demonstrate what they can do. That includes sharing interview topics, offering practice interviews, and helping candidates prepare. I don't see those as unfair advantages. They help us evaluate someone's potential rather than how familiar they are with interviews.
 
-It can be tempting to use the same interview process for both internal and external candidates in the name of fairness. However, this approach can inadvertently skew the hiring process in favor of external candidates who may have had more opportunities to demonstrate their suitability in different settings.
+And if an internal candidate doesn't get the role, the conversation shouldn't end with a rejection. They should understand what influenced the decision and what they can work on if they want to try again.
 
-Recognize that internal candidates, especially those transitioning from individual contributor roles to managerial positions within the same organization, will have fewer direct experiences to draw upon during interviews compared to external candidates. To address this imbalance, it's essential to adjust your interview approach accordingly for internal candidates while still maintaining fairness and objectivity in the evaluation process.
+Otherwise, we've turned what could have been a development opportunity into a reason to look somewhere else.
 
-One effective approach is presenting internal candidates with specific hypothetical scenarios relevant to the managerial role they aspire to, allowing you to assess their critical thinking, adaptability, and application of knowledge in real-world situations. This approach emphasizes their problem-solving abilities, communication skills, and decision-making prowess, moving beyond a focus on past performance. This shift towards a tailored approach lowers barriers for internal candidates, fostering inclusivity and a growth-oriented hiring process. It opens opportunities to unearth hidden talents and potential not immediately apparent from their current roles, empowering candidates to excel in new responsibilities, and benefiting both the individual and the organization.
+## Giving Someone Their First Opportunity
 
-### Case Study: InnovateX Labs
+I don't think organizations should always hire internally. Sometimes we need experience, expertise, or a perspective that doesn't currently exist on the team. Bringing in an experienced manager can also help develop future internal leaders.
 
-InnovateX Labs, a rapidly expanding technology company, encountered a common conundrum—identifying internal talent suitable for managerial roles, despite their limited direct experience.
+But I do think we should be intentional about that choice.
 
-To address this challenge, the leadership team implemented a customized interview approach with a focus on assessing potential over past performance. One standout candidate, Alex, a proficient software engineer aspiring to a leadership role, demonstrated their abilities through hypothetical scenarios that mimicked managerial challenges. Alex's responses highlighted adaptability, problem-solving skills, and innate leadership qualities, transcending their lack of direct managerial experience.
+If we consistently tell engineers they have opportunities to grow into management but only hire people who've already been managers, there's a disconnect between what we're saying and what we're doing.
 
-InnovateX Labs' decision to promote Alex to the role of Software Engineering Manager illustrated the success of assessing internal candidates based on their potential. This approach continued to unveil hidden talents and cultivate a growth-oriented culture within the organization.
+Developing leaders internally requires giving people opportunities to practice, evaluating their potential fairly, and being honest about whether they're ready.
 
-## 6. Assess Readiness Honestly
+Sometimes it also means accepting that a first-time manager will need more support than someone who's done the job for years. That's part of developing people.
 
-While internal promotions are undoubtedly a valuable approach to nurturing talent within your organization, it's equally important to maintain a balance between encouraging upward mobility and ensuring that candidates are genuinely ready for the roles they aspire to. The temptation to allow anyone to apply for higher positions in the hopes of a pleasant surprise should be approached cautiously.
-
-While occasional success stories may emerge, this strategy can more often discourage employees from making future attempts when they are truly prepared. Passion and dedication are invaluable assets that shouldn't be underestimated, and it may only take one rejection for an employee to question their future within the company.
-
-As such, open and honest conversations with potential candidates and their current managers become essential in accurately assessing readiness for new roles, helping to prevent disappointment and maintain employees' confidence in their career trajectories.
-
-### Case Study: TechGenius Solutions
-
-TechGenius Solutions exemplified its commitment to nurturing internal talent through the case of David, a dedicated engineer aspiring to a managerial role. During a one-on-one conversation with his current manager, Mark, David expressed his career goals.
-
-Rather than immediately endorsing his aspirations, Mark engaged in an open and candid dialogue, focusing on assessing David's readiness for the transition. This honest assessment recognized David's dedication and technical expertise while highlighting the need for further training and development to excel as an engineering manager.
-
-By providing David with constructive feedback and a clear development plan, the company ensured he was well-prepared for his eventual internal promotion.
-
-## 7. Prioritize Internal Candidates
-
-If you are committed to hiring internally, prioritize your internal candidates in the hiring process. Conduct internal interviews before considering external candidates. This approach demonstrates your confidence in your team and avoids creating a situation where internal candidates feel like backups.
-
-It's essential to align your hiring strategy with your company's specific needs, whether you seek fresh perspectives or value the potential for growth. Prioritizing internal candidates in the hiring process offers several advantages beyond demonstrating confidence in your team.
-
-By conducting internal interviews before considering external candidates, you create a fairer competition. Internal candidates may be at a disadvantage if competing directly with external applicants who may have more extensive interview experience or better preparation for the role. This approach aligns your hiring strategy with your company's specific needs, whether you seek fresh perspectives or value the potential for growth, while also ensuring a more equitable assessment process for all candidates.
-
-### Case Study: Nexus Dynamics Group
-
-In the role of HR director at Nexus Dynamics Group, John spearheaded the hiring process for the Engineering Manager position, prioritizing internal talent assessment before considering external candidates. This strategic choice bore several specific benefits for the organization. Showcasing trust in the internal team's potential fostered a sense of belonging and commitment among existing employees, reinforcing their dedication to the company's success.
-
-Moreover, this approach optimized resources by minimizing the need for extensive external candidate searches, saving both time and recruitment expenses. Furthermore, it motivated internal candidates like Lisa, a senior engineer, to perform at their best during interviews, knowing they had the organization's full support. This case illustrates how prioritizing internal hires can boost morale, streamline the hiring process, and empower employees to strive for career advancement within the organization, ultimately benefiting both individuals and the company as a whole.
-
-## Conclusion
-
-The implementation of these best practices for promoting managers from within offers significant benefits to organizations. By clearly defining hiring goals, preparing internal candidates for interviews, leveraging internal knowledge, and tailoring hiring processes, companies can unlock the full potential of their existing talent pool.
-
-Additionally, assessing readiness honestly and prioritizing internal candidates not only strengthens the internal culture but also streamlines the hiring process and reduces recruitment costs.
-
-Embracing these practices fosters a sense of belonging and commitment among employees while optimizing resources. Ultimately, these strategies create a supportive environment that fosters growth, builds trust, and leads to a stronger and more vibrant company culture.
-
-It's about realizing the immense potential within your organization and reaping the rewards of internal promotions, benefiting both the company and its employees.
+When someone is ready for their first management role, I don't want their biggest obstacle to be that nobody was willing to give them their first opportunity.
