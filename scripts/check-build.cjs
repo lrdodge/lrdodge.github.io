@@ -34,7 +34,8 @@ for (const post of posts.slice(0, 5)) {
 }
 assert(homepage.includes("Luke Dodge"))
 assert(homepage.includes("engineering leader"))
-assert(homepage.includes("Feedback course"))
+assert(homepage.includes("Feedback Workshop"))
+assert(homepage.includes('href="/feedback-workshop/"'))
 assert(homepage.includes('href="/thoughts/"'))
 assert(homepage.includes('href="/about/"'))
 assert(homepage.includes("https://www.linkedin.com/in/luke-dodge/"))
@@ -43,7 +44,12 @@ const about = read("about/index.html")
 assert(about.includes("Kansas City"))
 assert(about.includes("software engineer turned engineering leader"))
 
-const taglinedPost = read("the-deliberate-pause/index.html")
+const feedbackWorkshop = read("feedback-workshop/index.html")
+assert(feedbackWorkshop.includes("Feedback Workshop"))
+assert(feedbackWorkshop.includes("How to make feedback specific"))
+assert(feedbackWorkshop.includes("mailto:luke.r.dodge@gmail.com"))
+
+const taglinedPost = read("deliberate-pause/index.html")
 assert(taglinedPost.includes("Why good judgement matters more in the age of AI"))
 assert(
   !taglinedPost.includes(
@@ -52,7 +58,7 @@ assert(
 )
 
 const tagIndex = read("tags/index.html")
-assert(tagIndex.includes("Engineering Leadership"))
+assert(tagIndex.includes("Leadership"))
 assert(tagIndex.includes("Teams"))
 
 assert(read("404.html").includes("404: Not Found"))
