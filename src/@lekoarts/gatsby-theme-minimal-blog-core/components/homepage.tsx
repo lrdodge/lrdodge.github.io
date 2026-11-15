@@ -1,5 +1,6 @@
-import * as React from "react"
+/** @jsx jsx */
 import { graphql, useStaticQuery } from "gatsby"
+import { Box, jsx } from "theme-ui"
 import Homepage, {
   Head,
 } from "@lekoarts/gatsby-theme-minimal-blog/src/components/homepage"
@@ -24,7 +25,17 @@ const HomepageWithFivePosts = () => {
     }
   `)
 
-  return <Homepage posts={allPost.nodes} />
+  return (
+    <Box
+      sx={{
+        "header, #skip-nav > section:not(:last-of-type)": {
+          mb: [`4rem`, 5, 6],
+        },
+      }}
+    >
+      <Homepage posts={allPost.nodes} />
+    </Box>
+  )
 }
 
 export default HomepageWithFivePosts
