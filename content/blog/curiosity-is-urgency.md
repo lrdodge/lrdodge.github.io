@@ -6,6 +6,7 @@ date: "2026-09-09"
 slug: "/curiosity-is-urgency/"
 tags:
   - Curiosity
+  - Decision Making
   - Leadership
 ---
 

@@ -7,7 +7,7 @@ slug: "/deliberate-pause/"
 tags:
   - AI
   - Decision Making
-  - Engineering Leadership
+  - Leadership
 ---
 
 The more I work with AI as an engineering manager, the more I find one skill has become dramatically more valuable: the deliberate pause.

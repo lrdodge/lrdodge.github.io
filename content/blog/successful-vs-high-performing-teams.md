@@ -5,7 +5,7 @@ description: Why delivering results and building a great team aren't quite the s
 date: "2024-01-26"
 slug: "/successful-vs-high-performing-teams/"
 tags:
-  - Engineering Leadership
+  - Leadership
   - Performance
   - Teams
 ---

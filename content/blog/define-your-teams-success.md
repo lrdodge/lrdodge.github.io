@@ -5,7 +5,7 @@ description: Why missing the original plan doesn't always mean missing the goal
 date: "2023-11-20"
 slug: "/define-your-teams-success/"
 tags:
-  - Engineering Leadership
+  - Leadership
   - Project Management
   - Teams
 ---
