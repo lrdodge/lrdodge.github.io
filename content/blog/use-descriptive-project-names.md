@@ -3,7 +3,7 @@ title: "There is great power in a descriptive project name"
 tagline: What we call our work shapes how we define success and decide when we're done
 description: What we call our work shapes how we define success and decide when we're done
 date: "2023-12-29"
-slug: "/use-descriptive-project-names/"
+slug: "/descriptive-project-names/"
 tags:
   - Communication
   - Project Management

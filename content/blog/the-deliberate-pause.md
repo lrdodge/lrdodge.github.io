@@ -3,7 +3,7 @@ title: Knowing how to pause is your competitive advantage
 tagline: Why good judgement matters more in the age of AI
 description: Why good judgement matters more in the age of AI
 date: "2026-07-01"
-slug: "/the-deliberate-pause/"
+slug: "/deliberate-pause/"
 tags:
   - AI
   - Decision Making
