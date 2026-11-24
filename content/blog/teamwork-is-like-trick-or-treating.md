@@ -3,7 +3,6 @@ title: How Halloween teaches us good teamwork
 tagline: Collaboration takes both sides of the door
 description: Collaboration takes both sides of the door
 date: "2026-10-29"
-slug: "/teamwork-is-like-trick-or-treating/"
 tags:
   - Collaboration
   - Teams

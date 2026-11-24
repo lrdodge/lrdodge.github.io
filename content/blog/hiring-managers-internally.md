@@ -3,7 +3,6 @@ title: The challenge of promoting engineering managers from within (and why you 
 tagline: How do you give someone a chance to lead when they haven't had the chance to lead yet?
 description: How do you give someone a chance to lead when they haven't had the chance to lead yet?
 date: "2023-09-22"
-slug: "/hiring-managers-internally/"
 tags:
   - Hiring
   - Leadership

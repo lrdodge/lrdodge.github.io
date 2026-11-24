@@ -8,7 +8,10 @@ const readPageData = route =>
 
 const thoughts = readPageData("thoughts")
 const posts = thoughts.result.data.allPost.nodes
-assert.equal(posts.length, 10, "Thoughts must contain all ten posts")
+const expectedPostCount = fs
+  .readdirSync(path.join("content", "blog"))
+  .filter(file => /\.mdx?$/.test(file)).length
+assert.equal(posts.length, expectedPostCount, "Thoughts must contain every post")
 assert.match(posts[0].date, /^\d{2} [A-Z][a-z]{2} \d{4}$/)
 
 const thoughtsHtml = read("thoughts/index.html")
@@ -30,11 +33,12 @@ for (const post of posts) {
 
 const homepage = read("index.html")
 for (const post of posts.slice(0, 5)) {
-  assert(homepage.includes(`href="${post.slug}"`), `Homepage is missing ${post.title}`)
+  const href = `${post.slug.replace(/\/$/, "")}/`
+  assert(homepage.includes(`href="${href}"`), `Homepage is missing ${post.title}`)
 }
 assert(homepage.includes("Luke Dodge"))
 assert(homepage.includes("engineering leader"))
-assert(homepage.includes("Feedback Workshop"))
+assert(homepage.includes("Scaling Growth Through Peer Feedback"))
 assert(homepage.includes('href="/feedback-workshop/"'))
 assert(homepage.includes('href="/thoughts/"'))
 assert(homepage.includes('href="/about/"'))
@@ -45,11 +49,11 @@ assert(about.includes("Kansas City"))
 assert(about.includes("software engineer turned engineering leader"))
 
 const feedbackWorkshop = read("feedback-workshop/index.html")
-assert(feedbackWorkshop.includes("Feedback Workshop"))
-assert(feedbackWorkshop.includes("How to make feedback specific"))
+assert(feedbackWorkshop.includes("Scaling Growth Through Peer Feedback"))
+assert(feedbackWorkshop.includes("Giving useful feedback"))
 assert(feedbackWorkshop.includes("mailto:luke.r.dodge@gmail.com"))
 
-const taglinedPost = read("deliberate-pause/index.html")
+const taglinedPost = read("knowing-how-to-pause-is-your-competitive-advantage/index.html")
 assert(taglinedPost.includes("Why good judgement matters more in the age of AI"))
 assert(
   !taglinedPost.includes(

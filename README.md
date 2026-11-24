@@ -25,12 +25,14 @@ shape:
 ---
 title: Your post title
 date: "2026-11-09"
-slug: "/your-post-slug/"
 tags:
   - Engineering Leadership
   - Teams
 ---
 ```
+
+Post URLs are generated automatically from the title. Add a `slug` only when a
+post needs a custom URL or must preserve an existing published URL.
 
 `description` is optional and appears as a subtitle on the post. Existing
 `tagline` values are retained for their original editorial metadata.
