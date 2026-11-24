@@ -5,9 +5,11 @@ Luke Dodge's personal site and writing, built with Gatsby and
 
 ## Local development
 
-Use Node.js 24 (`nvm install && nvm use` reads `.nvmrc`), then run:
+Use Node.js 24.22.3 and npm 12.2.3 (`nvm install && nvm use` reads `.nvmrc`),
+then run:
 
 ```sh
+npm install --global npm@12.2.3
 npm ci
 npm test
 npm run develop
