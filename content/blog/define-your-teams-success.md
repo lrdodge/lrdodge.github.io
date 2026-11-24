@@ -1,6 +1,5 @@
 ---
 title: How to fail your way to a successful project
-tagline: Why missing the original plan doesn't always mean missing the goal
 description: Why missing the original plan doesn't always mean missing the goal
 date: "2023-11-20"
 tags:

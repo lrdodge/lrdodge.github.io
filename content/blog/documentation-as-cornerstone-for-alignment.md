@@ -1,6 +1,5 @@
 ---
 title: Why writing things down makes better teams
-tagline: Sometimes the most valuable part of documentation happens before anyone reads it
 description: Sometimes the most valuable part of documentation happens before anyone reads it
 date: "2023-12-07"
 tags:

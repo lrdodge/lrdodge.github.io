@@ -1,6 +1,5 @@
 ---
 title: The changing cost of compromise
-tagline: Not every productivity gain needs to become a shorter deadline
 description: Not every productivity gain needs to become a shorter deadline
 date: "2026-11-24"
 tags:

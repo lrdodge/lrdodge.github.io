@@ -36,8 +36,7 @@ tags:
 Post URLs are generated automatically from the title. Add a `slug` only when a
 post needs a custom URL or must preserve an existing published URL.
 
-`description` is optional and appears as a subtitle on the post. Existing
-`tagline` values are retained for their original editorial metadata.
+`description` is optional and appears as a subtitle on the post.
 
 ## Site content
 

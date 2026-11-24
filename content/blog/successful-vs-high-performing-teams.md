@@ -1,6 +1,5 @@
 ---
 title: Successful teams aren't always high-performing teams
-tagline: Why delivering results and building a great team aren't quite the same thing
 description: Why delivering results and building a great team aren't quite the same thing
 date: "2024-01-26"
 tags:
